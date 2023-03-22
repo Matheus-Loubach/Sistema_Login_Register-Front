@@ -1,0 +1,26 @@
+.container_screenRegi{
+    background: url(../img/spaceRegister.jpg);
+}
+
+.container_rightReg{
+    color: #000000;
+    padding-top: 5%;
+    border: 1px solid rgb(140, 0, 255);
+    border-top-right-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.651);
+    backdrop-filter: blur(3px);
+    width: 550px;
+    height: 350px;
+}
+
+:is(#eml, #psw) {    
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.3em;
+    padding-left: 2.5em;    
+  }
+
+#eml {    
+    background-image: url("../img/email.svg");
+
+  }

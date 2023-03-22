@@ -1,0 +1,83 @@
+:is(.container_screen, .container_screenRegi){
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;  
+    color: #ffffff;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    overflow: hidden;
+}
+
+.container_screen{
+    background: url(../img/space.jpg);
+}
+
+
+:is(.container_screen button:hover, .container_screenRegi button:hover){
+    background-color: rgb(140, 0, 255);
+    cursor: pointer;
+    color:#ffffff;
+}
+
+.container_left{
+    padding-top: 10%;
+    font-weight: bold;
+    border: 1px solid rgb(140, 0, 255);
+    border-bottom-left-radius: 50px; 
+    background-color: rgb(0, 0, 0);
+    width: 250px;
+    height: 270px;
+}
+
+.container_right{
+    color: #000000;
+    padding-top: 5%;
+    border: 1px solid rgb(140, 0, 255);
+    border-top-right-radius: 50px;
+    background-color: rgba(255, 255, 255, 0.651);
+    backdrop-filter: blur(3px);
+    width: 550px;
+    height: 350px;
+}
+
+.form{
+    display: flex;
+}
+
+:is(.container_right input, .container_rightReg input){
+    margin-top: 2%;
+    padding: 10px;
+    border-radius: 10px;
+    border: 0;
+}
+
+.inputLogin img{
+    width: 20px;
+}
+
+:is(#usr) {    
+    background-repeat: no-repeat;
+    background-position: 10px;
+    background-size: 1.3em;
+    padding-left: 2.5em;    
+  }
+
+  #psw {    
+    background-image: url("../img//pass.svg");
+  }
+  #usr {    
+    background-image: url("../img//user.svg");
+  }
+
+
+.icone img{
+    justify-content: start;
+    display: flex;
+    margin-left: 5%;
+    margin-top: 15%;
+    width: 30px;
+  }
+
