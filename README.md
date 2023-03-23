@@ -1,70 +1,15 @@
-# Getting Started with Create React App
+# Sistema do FRONT
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O projeto em questão é um front-end para cadastro e login de usuários em uma aplicação web, desenvolvido com a biblioteca ReactJS. A interface do usuário é responsiva e se adapta a diferentes tamanhos de tela. A estrutura do projeto é modularizada, permitindo a fácil manutenção e escalabilidade.
 
-## Available Scripts
+A autenticação é realizada com o uso da biblioteca react-router-dom, que permite a navegação na aplicação sem a necessidade de recarregar a página. O processo de autenticação envolve a validação dos dados inseridos pelo usuário, como nome de usuário e senha, por meio de validações de formulário.
 
-In the project directory, you can run:
+Além disso, a aplicação também utiliza a Context API do React para gerenciar o estado global da aplicação. Isso permite que as informações de autenticação sejam compartilhadas entre os diferentes componentes da aplicação, sem a necessidade de passá-las manualmente por meio de props.
 
-### `npm start`
+As informações de autenticação são armazenadas no localStorage do navegador, para que o usuário permaneça conectado mesmo após fechar a página ou atualizar a aplicação. Isso é importante para proporcionar uma melhor experiência de usuário.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Outro aspecto importante do projeto é o uso de code-splitting, que permite que o código da aplicação seja dividido em diferentes arquivos para que possa ser carregado de forma mais eficiente. Isso significa que o usuário não precisa carregar todo o código da aplicação de uma vez, mas sim apenas o que é necessário para a página atual.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Por fim, a aparência da aplicação é definida com o uso de módulos de CSS, que permitem estilos específicos para cada componente da aplicação. Isso torna a aplicação mais fácil de manter e modificar, pois os estilos estão encapsulados em cada componente.
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
-
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
-
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pagína do back-end: https://github.com/Matheus-Loubach/Sistema_Login_Register-Back
