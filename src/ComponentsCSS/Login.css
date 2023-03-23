@@ -77,7 +77,12 @@
     justify-content: start;
     display: flex;
     margin-left: 5%;
-    margin-top: 15%;
+    margin-top: 10%;
     width: 30px;
   }
 
+.icone p{
+   color: red;
+   font-weight: bold;
+   font-family: Arial, Helvetica, sans-serif;
+}

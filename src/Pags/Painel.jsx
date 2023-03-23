@@ -15,7 +15,7 @@ const Painel = () => {
   //userALl
   useEffect(() => {
     async function fetchData() {
-      const response = await fetch('http://localhost:3000/Api/userall', {
+      const response = await fetch('http://localhost:8080/Api/userall', {
         headers: {
           'Authorization': `Bearer ${token}`
         }
@@ -30,7 +30,7 @@ const Painel = () => {
   useEffect(() => {
     async function fetchData() {
       try {
-        const response = await fetch('http://localhost:3000/Api/user', {
+        const response = await fetch('http://localhost:8080/Api/user', {
           headers: {
             'Authorization': `Bearer ${token}`
           }

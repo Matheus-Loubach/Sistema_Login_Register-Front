@@ -32,11 +32,13 @@ const LoginCadastro = () => {
                 <input type="password" id='psw' placeholder="Password" onChange={(e) => setUser({ ...user, password: e.target.value })} />
               </div>
               <button onClick={(e) => handleLogin(e)}>Entrar</button>
-              {messagem ? <p>{messagem}</p> : []}
             </form>
             <div>
             </div>
             <div className='icone'>
+              <div>
+              {messagem ? <p>{messagem}</p> : []}
+              </div>
               <a href="https://github.com/Matheus-Loubach"><img src={git} alt="IconGit"  /></a>
             </div>
           </section>

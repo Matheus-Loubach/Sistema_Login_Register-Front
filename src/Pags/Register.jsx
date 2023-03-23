@@ -51,9 +51,11 @@ const Register = () => {
                 required onChange={(e) => setUser({ ...user, passwordconf: e.target.value })}></input>
             </div>
             <button onClick={(e) => handleRegister(e)}>Cadastrar</button>
-            {messagem ? <p>{messagem}</p> : [] }
           </form>
           <div>
+            <div className='messageError'>
+            {messagem ? <p>{messagem}</p> : [] }
+            </div>
 
           </div>
         </header>

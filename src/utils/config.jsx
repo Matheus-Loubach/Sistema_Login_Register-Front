@@ -1,4 +1,4 @@
-export const api = 'http://localhost:3000/Api'
+export const api = 'http://localhost:8080/Api'
 
 //Configurações http
 export const RequestConfig = (method,data,token) => {

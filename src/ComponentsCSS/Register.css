@@ -10,7 +10,7 @@
     background-color: rgba(255, 255, 255, 0.651);
     backdrop-filter: blur(3px);
     width: 550px;
-    height: 350px;
+    height: 380px;
 }
 
 :is(#eml, #psw) {    
@@ -24,3 +24,16 @@
     background-image: url("../img/email.svg");
 
   }
+
+.messageError{
+  height: 100px;
+  background-color: transparent;
+  color: #ff0000;
+  font-weight: bold;
+}
+
+.messageError p{
+  height: 40px;
+  margin-bottom: 10px;
+
+}
