@@ -17,7 +17,7 @@ Este projeto é um front-end para cadastro e login de usuários em uma aplicaç�
 
 - ReactJS
 - React Router DOM
-- Axios
+- Fetch
 - JWT Decode
 - Módulos CSS
 - Code-Splitting
