@@ -56,7 +56,6 @@ const Register = () => {
             <div className='messageError'>
             {messagem ? <p>{messagem}</p> : [] }
             </div>
-
           </div>
         </header>
       </div>

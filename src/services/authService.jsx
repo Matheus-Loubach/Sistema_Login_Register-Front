@@ -14,6 +14,8 @@ export const register = async (data) => {
         console.error('Error:', error);
     }
 };
+
+
 // Login user
 export const login = async (data, token) => {
     const config = RequestConfig("POST", data, token);
