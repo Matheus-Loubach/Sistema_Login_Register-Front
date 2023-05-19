@@ -17,8 +17,8 @@ export const register = async (data) => {
 
 
 // Login user
-export const login = async (data, token) => {
-    const config = RequestConfig("POST", data, token);
+export const login = async (data) => {
+    const config = RequestConfig("POST", data);
   
     try {
       const res = await fetch(api + "/login", config);

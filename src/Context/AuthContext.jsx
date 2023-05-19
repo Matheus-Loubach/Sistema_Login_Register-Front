@@ -32,7 +32,7 @@ function AuthProvider({ children }) {
   const handleLogin = async (e) => {
     e.preventDefault();
     try {
-      const response = await login(user, token);
+      const response = await login(user);
       console.log(response, 'response de login');
       if (response.token) {
         localStorage.setItem("auth", true);
@@ -56,7 +56,7 @@ function AuthProvider({ children }) {
     try {
       const response = await register(user);
       console.log('cadastr',response);
-      setMessagem(response);
+      setMessagem(response.message);
     } catch (error) {
       setMessagem("Ocorreu um erro ao registrar!" + error.message);
     }
